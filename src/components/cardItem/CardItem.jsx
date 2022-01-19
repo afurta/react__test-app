@@ -4,7 +4,6 @@ import "./cardItem.css";
 const CardItem = () => {
   const article = window.location.pathname.split("/");
   const item = data.filter(elem => elem.id == article[article.length - 1])[0];
-  console.group(item);
   return (
     <div className="cardItem">
       <div className="cardItem__container __container">
