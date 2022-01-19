@@ -6,13 +6,13 @@ import CardItem from "./components/cardItem/CardItem";
 import ErrorPage from "./components/404/ErrorPage";
 
 function App() {
-  let link = process.env.PUBLIC_URL;
+  // let link = process.env.PUBLIC_URL;
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path={link} element={<Main />} />
-        <Route path={link + "/article/:id"} element={<CardItem />} />
+        <Route path="/" element={<Main />} />
+        <Route path="/article/:id" element={<CardItem />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
