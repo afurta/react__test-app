@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./ErrorPage.css";
 
 const ErrorPage = () => {
@@ -5,9 +6,9 @@ const ErrorPage = () => {
     <div className="error__page __container">
       <div className="error">
         <div>Page not found</div>
-        <a className="" href="/">
+        <NavLink to={process.env.PUBLIC_URL} className="">
           Home
-        </a>
+        </NavLink>
       </div>
     </div>
   );
