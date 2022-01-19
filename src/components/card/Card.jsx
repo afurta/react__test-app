@@ -27,14 +27,14 @@ const Card = props => {
       </div>
       <div className="card__header">{props.header}</div>
       <div className="card__text">{props.Text}</div>
-      <NavLink
+      <Link
         to={"/article/" + `${props.id}`}
         className="card__btn"
         style={{ background: `${props.CategoryColor}` }}
         // href={`/article/${props.id}`}
       >
         Call to action
-      </NavLink>
+      </Link>
     </div>
   );
 };

@@ -6,9 +6,9 @@ const ErrorPage = () => {
     <div className="error__page __container">
       <div className="error">
         <div>Page not found</div>
-        <NavLink to={process.env.PUBLIC_URL} className="">
+        <Link to={process.env.PUBLIC_URL} className="">
           Home
-        </NavLink>
+        </Link>
       </div>
     </div>
   );
