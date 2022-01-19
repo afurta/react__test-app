@@ -4,6 +4,8 @@ import "./cardItem.css";
 const CardItem = () => {
   const article = window.location.pathname.split("/");
   const item = data.filter(elem => elem.id == article[article.length - 1])[0];
+  let link = process.env.PUBLIC_URL;
+
   console.group(item);
   return (
     <div className="cardItem">
@@ -46,7 +48,7 @@ const CardItem = () => {
             <a
               className="card__btn"
               style={{ background: `${item.CategoryColor}` }}
-              href="/"
+              href={link}
             >
               Home
             </a>
