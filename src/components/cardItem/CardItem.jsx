@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import data from "../../data/data";
 import "./cardItem.css";
 
@@ -42,13 +43,14 @@ const CardItem = () => {
             </div>
             <div className="card__header">{item.header}</div>
             <div className="card__text">{item.Text}</div>
-            <a
+            <NavLink
+              to={"/"}
               className="card__btn"
               style={{ background: `${item.CategoryColor}` }}
-              href="/"
+              // href="/"
             >
               Home
-            </a>
+            </NavLink>
           </div>
         )}
       </div>
