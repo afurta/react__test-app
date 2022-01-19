@@ -1,4 +1,5 @@
 import "./App.css";
+
 import { Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
 import Main from "./components/main/Main";
@@ -11,9 +12,9 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={<Main />} />
-        <Route path="/article/:id" element={<CardItem />} />
-        <Route path="*" element={<ErrorPage />} />
+        <Route exact path="/" component={<Main />} />
+        <Route path="/article/:id" component={<CardItem />} />
+        <Route path="*" component={<ErrorPage />} />
       </Routes>
     </div>
   );
