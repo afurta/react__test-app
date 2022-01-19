@@ -6,7 +6,7 @@ import App from "./App.jsx";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter basename="https://afurta.github.io/react__test-app/">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
