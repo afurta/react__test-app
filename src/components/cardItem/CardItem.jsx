@@ -45,7 +45,7 @@ const CardItem = () => {
             <div className="card__header">{item.header}</div>
             <div className="card__text">{item.Text}</div>
             <Link
-              to={process.env.PUBLIC_URL}
+              to="/"
               className="card__btn"
               style={{ background: `${item.CategoryColor}` }}
             >
