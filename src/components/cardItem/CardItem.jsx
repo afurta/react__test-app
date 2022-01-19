@@ -11,9 +11,9 @@ const CardItem = () => {
         {item === undefined ? (
           <div className="error">
             <div>Page not found</div>
-            <a className="" href="/">
+            <Link className="" to="/">
               Home
-            </a>
+            </Link>
           </div>
         ) : (
           <div className="cardItem__card card">
@@ -35,6 +35,7 @@ const CardItem = () => {
                   : { background: `${item.Photo}` }
               }
             ></div>
+
             <div
               className="card__author"
               style={{ color: `${item.CategoryColor}` }}
@@ -47,7 +48,6 @@ const CardItem = () => {
               to={process.env.PUBLIC_URL}
               className="card__btn"
               style={{ background: `${item.CategoryColor}` }}
-              // href="/"
             >
               Home
             </Link>

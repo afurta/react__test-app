@@ -7,14 +7,13 @@ import CardItem from "./components/cardItem/CardItem";
 import ErrorPage from "./components/404/ErrorPage";
 
 function App() {
-  // let link = process.env.PUBLIC_URL;
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" component={<Main />} />
-        <Route path="/article/:id" component={<CardItem />} />
-        <Route path="*" component={<ErrorPage />} />
+        <Route exact path="/" element={<Main />} />
+        <Route path="/article/:id" element={<CardItem />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </div>
   );
