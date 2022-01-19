@@ -1,8 +1,6 @@
 import "./Card.css";
 
 const Card = props => {
-  let link = process.env.PUBLIC_URL;
-
   return (
     <div className="card">
       <div
@@ -31,7 +29,7 @@ const Card = props => {
       <a
         className="card__btn"
         style={{ background: `${props.CategoryColor}` }}
-        href={link + `/article/${props.id}`}
+        href={`/article/${props.id}`}
       >
         Call to action
       </a>
