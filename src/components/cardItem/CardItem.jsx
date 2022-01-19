@@ -6,7 +6,6 @@ const CardItem = () => {
   const item = data.filter(elem => elem.id == article[article.length - 1])[0];
   let link = process.env.PUBLIC_URL;
 
-  console.group(item);
   return (
     <div className="cardItem">
       <div className="cardItem__container __container">
