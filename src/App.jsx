@@ -1,14 +1,20 @@
 import "./App.css";
-import BookList from "./components/BooksList/BookList";
-import { Context } from "./context/context";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/header/Header";
+import Main from "./components/main/Main";
+import CardItem from "./components/cardItem/CardItem";
+import ErrorPage from "./components/404/ErrorPage";
 
 function App() {
   return (
-    <Context>
-      <div className="App">
-        <BookList />
-      </div>
-    </Context>
+    <div className="App">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/article/:id" element={<CardItem />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </div>
   );
 }
 

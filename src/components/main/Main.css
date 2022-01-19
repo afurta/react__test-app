@@ -1,0 +1,35 @@
+.main {
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.main__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 992px) {
+  .main__container {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 768px) {
+  .main__container {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 576px) {
+  .main__container {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 576px) {
+  .main__container {
+    justify-content: space-around;
+  }
+}

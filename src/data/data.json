@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "Category": "Marketing",
+    "CategoryColor": "#00B6DD",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like",
+    "Photo": "#D3D8E4",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  },
+  {
+    "id": 2,
+    "Category": "",
+    "imgSource": "2.png",
+    "CategoryColor": "#00B6DD",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like",
+    "Photo": "#D3D8E4",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  },
+  {
+    "id": 3,
+    "Category": "Marketing",
+    "CategoryColor": "#081580",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like",
+    "Photo": "#FF779A",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  },
+  {
+    "id": 4,
+    "Category": "Marketing",
+    "CategoryColor": "#081580",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like",
+    "Photo": "#00B6DD",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  },
+  {
+    "id": 5,
+    "imgSource": "5.png",
+    "Category": "Marketing",
+    "CategoryColor": "#00B6DD",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like you like people",
+    "Photo": "#D3D8E4",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  },
+  {
+    "id": 6,
+    "Category": "",
+    "CategoryColor": "#081580",
+    "Author": "Adam Sendler",
+    "header": "Solutions for people like",
+    "Photo": "#D3D8E4",
+    "Text": "How can we help your technology and services business develop a revenue engine based"
+  }
+]
